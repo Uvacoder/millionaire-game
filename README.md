@@ -31,6 +31,9 @@ questions.json format:
               },
         ],
         "currency": "$"
+    }
+  ]
+}
 ```
 
 
