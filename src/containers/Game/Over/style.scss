@@ -1,0 +1,17 @@
+@import '../../../utils/scss/vars.scss';
+
+.over {
+  background-color: var(--black-5);
+}
+
+.over__score-title {
+  margin-bottom: 0.5rem;
+  color: var(--black-40);
+}
+
+@media(max-width: $max-width) {
+  .over .container__text {
+    text-align: center;
+  }
+
+}

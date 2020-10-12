@@ -1,0 +1,33 @@
+@import '../../utils/scss/vars.scss';
+
+.button {
+  box-sizing: border-box;
+  display: block;
+  width: 18.5rem;
+  padding: var(--button-size);
+  font-size: var(--font-s);
+  border-radius: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .15s ease-in-out;
+}
+
+.button--orange {
+  background-color: var(--orange-100);
+  color: #ffffff;
+
+  &:hover {
+    background-color: var(--orange-80);
+  }
+
+  &:focus {
+    background-color: var(--orange-120);
+  }
+}
+
+@media (max-width: $max-width) {
+  .button {
+    width: 18rem;
+  }
+
+}

@@ -1,0 +1,44 @@
+$max-width: 960px;
+
+$mobile-landscape: 567px;
+
+$tablet-portrait: 767px;
+$tablet-landscape: 1023px;
+
+$desktop-m: 1200px;
+
+:root {
+  --font-l: 3.5rem;
+  --font-m: 2rem;
+  --font-s: 1.25rem;
+  --button-size: 1.3125rem 1.5rem 1.25rem 1.5rem;
+  --container-padding: 8.25rem 5rem 7.625rem 5rem;
+  --orange-120: #E87928;
+  --orange-100: #FF8B37;
+  --orange-80: #FFAC70;
+  --orange-5: #FFF3EB;
+
+  --green-100: #47D867;
+  --green-5: #E6FAEA;
+
+  --red-100: #EC6259;
+  --red-5: #FDEEED;
+
+  --black-100: #1C1C21;
+  --black-40: #D0D0D8;
+  --black-5: #F5F5F7;
+
+  --white-100: #ffffff;
+
+  --max-width: 960px;
+}
+
+@media(max-width: $tablet-portrait) {
+  :root {
+    --font-l: 2rem;
+    --font-m: 1.125rem;
+    --font-s: 0.875rem;
+    --button-size: 1rem 1.5rem;
+    --container-padding: 6.375rem 1rem 1.5rem 1rem;
+  }
+}

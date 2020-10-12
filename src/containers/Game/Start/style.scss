@@ -1,0 +1,21 @@
+.start__title {
+  width: 75%;
+}
+
+@media (max-width: var(--max-width)) {
+  .start {
+    height: 100vh;
+    max-height: 100vh;
+    min-height: auto;
+  }
+
+  .start__image-wrapper {
+    width: 50vh;
+  }
+
+  .start__title {
+    margin-top: 2.625rem;
+    margin-bottom: 6.375rem;
+  }
+
+}

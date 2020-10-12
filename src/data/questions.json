@@ -1,0 +1,168 @@
+{
+	"games" : [
+		{
+		    "questions" : [
+		        {
+		            "question" : "Who is the president of the USA?",
+		            "content" : [
+		                "Donald Duck",
+		                "Jack Sparrow",
+		                "Donald Trump",
+		                "Kim Kardashian"
+		            ],
+								"correct" : [2],
+								"money": 500
+		        },
+		        {
+		            "question" : "What company logo contains red?",
+		            "content" : [
+		                "Ducati",
+		                "Pepsi",
+		                "Apple",
+		                "Vodafone"
+		            ],
+								"correct" : [0, 3],
+								"money": 1000
+		        },
+		        {
+		            "question" : "Which material is most dense?",
+		            "content" : [
+		                "Silver",
+		                "Styrofoam",
+		                "Butter",
+		                "Gold"
+		            ],
+								"correct" : [3],
+								"money": 2000
+		        },
+		        {
+		            "question" : "Which state in the United States is largest by area?",
+		            "content" : [
+		                "Alaska",
+		                "California",
+		                "Texas",
+		                "Hawaii"
+		            ],
+								"correct" : [0],
+								"money": 4000
+		        },
+		        {
+		            "question" : "Who wrote 4 seasons?",
+		            "content" : [
+		                "Mozart",
+		                "Vivaldi",
+		                "Bach",
+		                "Chaikovsky"
+		            ],
+								"correct" : [1],
+								"money": 8000
+		        },
+				{
+						"correct" : [3],
+						"money": 16000,
+				    "question": "Galileo was an Italian astronomer who:",
+						"content": [
+				        "developed the telescope",
+				        "discovered four satellites of Jupiter",
+				        "discovered that the movement of pendulum produces a regular time measurement",
+				        "All of the above"
+				    ]
+				},
+				{
+						"correct" : [2],
+						"money": 32000,
+				    "question": "When is Ukrainian Independence Day?",
+						"content": [
+				        "21 Aug",
+				        "27 Aug",
+				        "24 Aug",
+				        "14 Aug"
+				    ]
+				},
+				{
+						"correct" : [1],
+						"money": 64000,
+				    "question": "How many countries are EU Members?",
+				    "content": [
+				        "18",
+				        "28",
+				        "22"
+				    ]
+				},
+				{
+						"correct" : [3],
+						"money": 125000,
+				    "question": "The first iPhone was introduced in:",
+						"content": [
+				        "Sep 6, 2007",
+				        "Sep 12, 2007",
+				        "Oct 14, 2008",
+				        "June 29, 2007"
+				    ]
+				},
+				{
+						"correct" : [2],
+						"money": 250000,
+				    "question": "When is the International Workers' Day?",
+						"content": [
+				        "15th April",
+				        "12th December",
+				        "1st May",
+				        "1st August"
+				    ]
+				},
+				{
+						"correct" : [0, 1, 2, 3],
+						"money": 500000,
+				    "question": "Select all car models Tesla has annouced:",
+						"content": [
+				        "S",
+				        "3",
+				        "X",
+				        "Y"
+				    ]
+				},
+				{
+						"correct" : [1],
+						"money": 1000000,
+				    "question": "Instagram was sold for: ",
+						"content": [
+				        "$18b",
+				        "$1b",
+				        "$150m",
+				        "$500mil"
+				    ]
+				},
+				{
+						"correct" : [1],
+						"money": 500,
+				    "content": [
+				        "I want to break free",
+				        "Hello darkness",
+				        "The show must go on",
+				        "We are the champions"
+				    ],
+				    "question": "What song is not written by Queen?"
+				},
+				{
+						"correct" : [0, 1, 3, 4],
+						"money": 500,
+				    "content": [
+				        "Kyiv",
+								"Odessa",
+								"Warsaw",
+								"Lviv",
+								"Kharkiv",
+								"Kharkiv",
+								"Kharkiv",
+								"Kharkiv",
+								"Kharkiv",
+								"Kharkiv"
+							],
+				    "question": "Select all Ukrainian cities:"
+				}
+				],
+				"currency": "$"
+		}
+	]
+}
