@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from 'react-router-dom';
@@ -13,11 +13,12 @@ import './utils/scss/style.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/">
       <Switch>
         <Route exact path="/" component={Start} />
         <Route path="/play" component={Play} />
         <Route path="/over" component={Over} />
+        <Route component={NotFound} />
         <Route component={NotFound} />
       </Switch>
     </Router>
