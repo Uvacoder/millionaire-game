@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ec2654e1acafe481967f541c2ab7564",
+    "revision": "a1dafe2b7a91b67b1b84409e3f0aac38",
     "url": "/millionaire-game/index.html"
   },
   {
-    "revision": "15a11350c33256997b98",
-    "url": "/millionaire-game/static/css/main.8bfe1deb.chunk.css"
+    "revision": "e77a029211cddb36bc9e",
+    "url": "/millionaire-game/static/css/main.0c7e1a1f.chunk.css"
   },
   {
     "revision": "c4e0ea2a9b3b97859ed0",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/millionaire-game/static/js/2.5fce25f5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "15a11350c33256997b98",
+    "revision": "e77a029211cddb36bc9e",
     "url": "/millionaire-game/static/js/main.33365903.chunk.js"
   },
   {
